@@ -1,0 +1,14 @@
+---
+title: "Báo cáo Phân tích Dự án"
+author: "Nghiên cứu viên"
+date: last-modified
+format: html
+---
+
+## Giới thiệu tổng quan
+Nội dung báo cáo sẽ được viết tại đây.
+
+## Phân tích Dữ liệu
+```{r}
+# Chèn code xử lý dữ liệu (tidyr, lubridate...) ở đây
+```

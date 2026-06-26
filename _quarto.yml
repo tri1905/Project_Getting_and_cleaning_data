@@ -1,0 +1,8 @@
+project:
+  type: project
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
