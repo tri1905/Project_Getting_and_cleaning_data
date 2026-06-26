@@ -6,9 +6,25 @@ format: html
 ---
 
 ## Giới thiệu tổng quan
+
 Nội dung báo cáo sẽ được viết tại đây.
 
 ## Phân tích Dữ liệu
+
 ```{r}
-# Chèn code xử lý dữ liệu (tidyr, lubridate...) ở đây
+#dowloads data into the folder
+
+# 2. SỬA TẠI ĐÂY: Thêm '/dataset.csv' vào cuối đường dẫn destfile
+download.file(
+  url = "https://raw.githubusercontent.com/tri1905/tidytuesday/main/data/2026/2026-02-17/dataset.csv", 
+  destfile = "D:/StudyR/Code/Data science/Getting and cleaning data/Project_Getting_and_cleaning_data/data/raw/dataset.csv", # <--- Thêm tên file ở đây
+  mode = "wb"
+)
+
+```
+
+```{r}
+library("readr")
+data=read_csv("data/raw/dataset.csv")
+view(data)
 ```
